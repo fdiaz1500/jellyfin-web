@@ -831,7 +831,7 @@ define(['dom', 'layoutManager', 'inputManager', 'connectionManager', 'events', '
                 pageTitleElement.innerHTML = '';
             }
 
-            document.title = 'Jellyfin';
+            document.title = 'Goodstream';
         },
         setTitle: function (title) {
             if (null == title) {
@@ -855,7 +855,7 @@ define(['dom', 'layoutManager', 'inputManager', 'connectionManager', 'events', '
                 pageTitleElement.innerHTML = html || '';
             }
 
-            document.title = title || 'Jellyfin';
+            document.title = title || 'Goodstream';
         },
         setTransparentMenu: function (transparent) {
             if (transparent) {
